@@ -1,11 +1,15 @@
 Description for generators:
 
 randomGeneratorBig
-    cloud shape: disk with empty sphere in center
+    cloud shape: spheroid
     distribution: normal
     optimized for > 100,000 points
 
 randomGeneratorBig
-    cloud shape: disk
+    cloud shape: spheroid
     distribution: normal
     optimized for < 10,000 points
+
+jitterGenerator:
+    cloud shape: center slice of sphere
+    distribution: normal shifted cubic
